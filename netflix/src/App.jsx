@@ -1,18 +1,12 @@
 import React from "react";
-import "./App.css";
-import Banner from "./Banner"
-import Nav from "./Nav";
+import Home from "./components/pages/Home/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-      {/* navbar */}
-      <Nav />
-      {/* Banner */}
-       <Banner />
-      {/* Rows*/} 
-    </div>
-      );
-}
+    <>
+      <Home />
+    </>
+  );
+};
 
-export default App; 
+export default App;
