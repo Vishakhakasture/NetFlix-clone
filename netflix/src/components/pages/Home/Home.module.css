@@ -1,0 +1,71 @@
+.hero {
+  position: relative;
+}
+
+.hero_img {
+  width: 100%;
+  height: 80%;
+  mask-image: linear-gradient(to right, transparent, black 60%);
+  -welit-mask-image: linear-gradient(to right, transparent, black 80%);
+  mask-image: linear-gradient(to left, transparent, black 60%);
+  -welit-mask-image: linear-gradient(to left, transparent, black 100%);
+}
+
+.hero_caption {
+  position: absolute;
+  width: 100%;
+  padding-left: 6%;
+  bottom: 0;
+}
+
+.hero_caption h1 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.hero_caption p {
+  max-width: 700px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero_button {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.hero_button .btn img {
+  width: 25px;
+}
+
+.hero_button .btn {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero_button #btn_info {
+  color: #fff;
+  background: #2a2a2ef9;
+}
+
+.hero_button .btn:hover {
+  background: #ffffffbf;
+}
+
+.hero_button #btn_info:hover {
+  background: #6d6d6e66;
+}
+
+.more_cards {
+  padding-left: 1%;
+}
