@@ -5,6 +5,7 @@ import Navbar from "../../Navbar/Navbar";
 import hero from "../../../assets/hero.jpg";
 import play from "../../../assets/play.png";
 import info from "../../../assets/info.png";
+import Footer from "../../Footer/Footer";
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
         <TitleCard title={"Action Movies"} />
         <TitleCard title={"Only on Netflixs"} />
       </div>
+      <Footer />
     </div>
   );
 };
