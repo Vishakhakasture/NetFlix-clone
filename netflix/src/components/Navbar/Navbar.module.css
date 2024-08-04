@@ -81,3 +81,7 @@
 .profile:hover .dropdown {
   display: block;
 }
+
+.nav_dark {
+  background: #141414;
+}

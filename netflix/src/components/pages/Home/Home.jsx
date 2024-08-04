@@ -2,7 +2,7 @@ import React from "react";
 import TitleCard from "../../TitleCards/TitleCard";
 import styles from "./Home.module.css";
 import Navbar from "../../Navbar/Navbar";
-import hero from "../../../assets/hero.jpg";
+import hero from "../../../assets/hero2.jpg";
 import play from "../../../assets/play.png";
 import info from "../../../assets/info.png";
 import Footer from "../../Footer/Footer";
@@ -34,11 +34,9 @@ const Home = () => {
         </div>
       </div>
       <div className={styles.more_cards}>
-        <TitleCard title={"Blockbuster Movies"} />
-        <TitleCard title={"Latest Movies"} />
-        <TitleCard title={"Upcoming Movies"} />
-        <TitleCard title={"Action Movies"} />
-        <TitleCard title={"Only on Netflixs"} />
+        <TitleCard title={"Top Rated"} category={"top_rated"} />
+        <TitleCard title={"Upcoming Movies"} category={"upcoming"} />
+        <TitleCard title={"Action Movies"} category={"now_playing"} />
       </div>
       <Footer />
     </div>

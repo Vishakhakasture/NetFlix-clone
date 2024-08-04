@@ -5,10 +5,8 @@
 .hero_img {
   width: 100%;
   height: 80%;
-  mask-image: linear-gradient(to right, transparent, black 60%);
+  mask-image: linear-gradient(to right, transparent, black 40%);
   -welit-mask-image: linear-gradient(to right, transparent, black 80%);
-  mask-image: linear-gradient(to left, transparent, black 60%);
-  -welit-mask-image: linear-gradient(to left, transparent, black 100%);
 }
 
 .hero_caption {

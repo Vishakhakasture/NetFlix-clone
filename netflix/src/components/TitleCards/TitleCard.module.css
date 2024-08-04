@@ -20,8 +20,8 @@
 }
 
 .card_list img {
-  width: 220px;
-  height: 250px;
+  width: 250px;
+  height: 180px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -32,7 +32,9 @@
 
 .card_list .card p {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   right: 10px;
   font-weight: 600;
+  text-decoration: none;
+  color: white;
 }
