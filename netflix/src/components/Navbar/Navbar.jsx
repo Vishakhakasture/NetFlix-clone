@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./Navbar.module.css";
-import { CiSearch } from "react-icons/ci";
-import { CiBellOn } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
+// import { CiBellOn } from "react-icons/ci";
 import { BiChevronDown } from "react-icons/bi";
 import { BiUser } from "react-icons/bi";
+import { logout } from "../../firebase";
 const Navbar = () => {
   const navRef = useRef();
 
@@ -41,7 +42,13 @@ const Navbar = () => {
           <BiUser className={styles.profile_icon} />
           <BiChevronDown />
           <div className={styles.dropdown}>
-            <p>Sign Out of Netflix</p>
+            <p
+              onClick={() => {
+                logout();
+              }}
+            >
+              Sign Out of Netflix
+            </p>
           </div>
         </div>
       </div>
