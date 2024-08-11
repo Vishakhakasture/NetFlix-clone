@@ -1,6 +1,7 @@
 import React from "react";
 import TitleCard from "../../TitleCards/TitleCard";
 import styles from "./Home.module.css";
+// import "../../TitleCards/TitleCard.module.css";
 import Navbar from "../../Navbar/Navbar";
 import hero from "../../../assets/hero2.jpg";
 import play from "../../../assets/play.png";
@@ -23,14 +24,14 @@ const Home = () => {
           </p>
           <div className={styles.hero_button}>
             <button className={styles.btn}>
-              <img src={play} alt="" />
+              <img src={play} alt="" className={styles.caption_img} />
               Play
             </button>
             <button className={styles.btn} id={styles.btn_info}>
               <img src={info} alt="" /> More Info
             </button>
           </div>
-          <TitleCard />
+          <TitleCard class={styles.title_cards} />
         </div>
       </div>
       <div className={styles.more_cards}>

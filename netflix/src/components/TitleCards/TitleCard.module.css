@@ -38,3 +38,31 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 800px) {
+  .title_cards {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .title_cards h2 {
+    font-size: 20px;
+  }
+  .card_list img {
+    width: 200px;
+  }
+  .card_list p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title_cards h2 {
+    font-size: 15px;
+  }
+  .card_list img {
+    width: 165px;
+  }
+  .card_list p {
+    font-size: 10px;
+  }
+}
